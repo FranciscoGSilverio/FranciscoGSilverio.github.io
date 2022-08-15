@@ -9,4 +9,7 @@ Even though the original idea was to create a page just like the one designed wi
 to this project, so it might not look exactly as in the original project.
 
 Also, I added a footer just to add some information to the page such as my name, de designer name and the tlink to its original word and also my contacts.
-If you liked what you saw ow have any ideas of improvement, feel free to let met know :)
+
+If you'd ike to take a look: here is the link to the deployed page: franciscogsilverio.github.io/index.html
+
+And od course, if you liked what you saw or have any ideas of improvement, feel free to let met know :)

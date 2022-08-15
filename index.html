@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Rubik&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Login Page</title>
+  </head>
+  <body>
+    <main>
+      <div class="main-content">
+        <div class="loginImage"></div>
+        <div class="loginScreen">
+          <div class="loginScreen-card">
+            <h1 class="login-title">Login to your Account</h1>
+            <p class="login-subtitle">
+              See what is going on with your business
+            </p>
+
+            <div class="box google-login">
+              <img src="Assets/googleLogo.png" alt="google logo" />
+              <p>Continue with google</p>
+            </div>
+
+            <div class="login-page-division">
+              <hr />
+              <span>or Sign in with Email</span>
+            </div>
+
+            <form class="login-form-container">
+              <div class="login-input-group">
+                <label class="login-form--label" htmlFor="email-input"
+                  >Email</label
+                >
+                <input
+                  type="email"
+                  id="email-input"
+                  class="box login-form--input"
+                  placeholder="username@email.com"
+                />
+              </div>
+
+              <div class="login-input-group">
+                <label class="login-form--label" htmlFor="password-input"
+                  >Password</label
+                >
+                <input
+                  type="password"
+                  id="password-input"
+                  class="box login-form--input"
+                  placeholder="*********"
+                />
+              </div>
+
+              <div class="login-input-group--smalls">
+                <label class="form-remember-label" htmlFor="remember-me"
+                  ><input
+                    type="checkbox"
+                    id="remember-me"
+                    class="form-remember-checkbox"
+                  />Remember me</label
+                >
+
+                <a class="form-password-anchor" href="google.com"
+                  >Forgot Password?</a
+                >
+              </div>
+
+              <button class="login-button" type="submit">Login</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <span class="author">Francisco Silvério</span>
+      <span class="credits">
+        Adapted from design:
+        <a href="https://www.figma.com/@tonyzebastian">
+          https://www.figma.com/@tonyzebastian</a
+        >
+      </span>
+      <div class="contact">
+        <a href="https://www.instagram.com/francisco_gsilverio/">
+          <img src="Assets/instagram.svg" alt="instagram icon" />
+        </a>
+        <a href="https://www.linkedin.com/in/francisco-silverio/">
+          <img src="Assets/linkedin.svg" alt="linkedin icon" />
+        </a>
+        <a href="https://twitter.com/FranciscoSilvr8">
+          <img src="Assets/twitter.svg" alt="twitter icon" />
+        </a>
+        <a href="https://github.com/FranciscoGSilverio">
+          <img src="Assets/github.svg" alt="github icon" />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
